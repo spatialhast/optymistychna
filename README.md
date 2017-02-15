@@ -1,3 +1,11 @@
-# Map of the caves Optimistic
+# Map of the cave Optymistychna
 
-gdal2tiles -p raster -z 1-5 omap_big_rgb.jpg tiles
+* [https://spatialhast.github.io/optymistychna]
+* [https://spatialhast.github.io/optymistychna/image.html]
+* [http://optimisticheskaya.com.ua/]
+* [https://en.wikipedia.org/wiki/Optymistychna_Cave]
+
+[https://spatialhast.github.io/optymistychna]: <https://spatialhast.github.io/optymistychna>
+[https://spatialhast.github.io/optymistychna/image.html]: <https://spatialhast.github.io/optymistychna/image.html>
+[http://optimisticheskaya.com.ua/]: <http://optimisticheskaya.com.ua/>
+[https://en.wikipedia.org/wiki/Optymistychna_Cave]: <https://en.wikipedia.org/wiki/Optymistychna_Cave>

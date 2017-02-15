@@ -121,7 +121,7 @@ info.onAdd = function (map) {
 };
 
 info.update = function (props) {
-    this._div.innerHTML = '<h4>Map of the caves Optimistic</h4><div><i>232 km in length</i></div>' + (props ?
+    this._div.innerHTML = '<h4>Map of the cave Optymistychna</h4><div><i>232 km in length</i></div>' + (props ?
         '<div class="c-name">Rayon: ' + props.name + '</div><div>area: ' + (props.area).toFixed(2) + ' m<sup>2</sup></div>perimeter: ' + (props.perimeter / 1000).toFixed(2) + ' km' : '');
 };
 
