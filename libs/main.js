@@ -11,14 +11,14 @@ var layerDZKOrto = new L.tileLayer('http://map.land.gov.ua/map/ortho10k_all/{z}/
     attribution: 'Image tiles: &copy <a href="https://land.gov.ua/">StateGeoCadastre of Ukraine</a>'
 });
 
-var layerOSMTopo = new L.tileLayer('http://opentopomap.org/{z}/{x}/{y}.png', {
-    maxNativeZoom: 17,
-    maxZoom: 18,
-    attribution: 'Map Data: &copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>-Mitwirkende, <a href="http://viewfinderpanoramas.org">SRTM</a> | Display Map: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+var layerThunderforestOutdoors = L.tileLayer('http://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png?apikey={apikey}', {
+	attribution: '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+	maxZoom: 18,
+	apikey: '1125d196db264df79003c570338eef2b'
 }).addTo(map);
 
 var baseLayers = {
-    "OpenTopoMap": layerOSMTopo,
+    "Thunderforest Outdoors": layerThunderforestOutdoors,
     "Ortophotoplan": layerDZKOrto
 };
 
