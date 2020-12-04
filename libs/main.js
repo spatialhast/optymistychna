@@ -4,7 +4,7 @@ var map = L.map('map', {
 
 var scale = L.control.scale().addTo(map);
 
-var layerDZKOrto = new L.tileLayer('http://map.land.gov.ua/map/ortho10k_all/{z}/{x}/{y}.jpg', {
+var layerDZKOrto = new L.tileLayer('https://m1.land.gov.ua/map/ortho10k_all/{z}/{x}/{y}.jpg', {
     tms: true,
     maxNativeZoom: 16,
     maxZoom: 18,
